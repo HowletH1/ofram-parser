@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ofram-parser"
+version = "0.1.0"
+description = ""
+authors = ["HowletH1 <danila23482@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2 = "^2.9.9"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
